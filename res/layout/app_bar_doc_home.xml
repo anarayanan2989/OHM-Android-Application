@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme_AppBarOverlay" app:layout_width="-1" app:layout_height="-2">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="?unknown_attr_ref: 7f010079" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01003d" app:popupTheme="@style/AppTheme_PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_doc_home" />
+</android.support.design.widget.CoordinatorLayout>

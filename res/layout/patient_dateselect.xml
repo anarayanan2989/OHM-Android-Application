@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/docpatient" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <RadioGroup android:id="@id/radioGroupDate" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <RadioButton android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/radioMonday" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="85dp" android:checked="false" android:text="Monday" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RadioButton android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/radioTue" android:layout_width="167dp" android:layout_height="-2" android:checked="false" android:text="Tuesday" />
+            <RadioButton android:textColor="#fff4f4f4" android:id="@id/radioWedensday" android:layout_width="137dp" android:layout_height="-2" android:checked="false" android:text="Wednesday" />
+            <RadioButton android:textColor="#fff4f4f4" android:id="@id/radioThursday" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Thursday" />
+            <RadioButton android:textColor="#fff4f4f4" android:id="@id/radioFriday" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Friday" />
+            <RadioButton android:textColor="#fff4f4f4" android:id="@id/radioSat" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Saturday" />
+            <RadioButton android:textColor="#fff4f4f4" android:id="@id/radioSun" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Sunday" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

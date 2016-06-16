@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@drawable/docback" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ScrollView android:id="@id/scrollView3" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="#ffffff" android:id="@id/textView26" android:layout_width="-2" android:layout_height="-1" android:text="   Enter Details               " />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView27" android:layout_width="188dp" android:layout_height="-2" android:text="Medicines to Prescribe" />
+                <EditText android:textColor="#fff4f4f4" android:id="@id/d_editMedcineName" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView28" android:layout_width="-2" android:layout_height="-2" android:text="Before Breakfast" />
+                <EditText android:textColor="#fff4f4f4" android:id="@id/d_editBreakBefore" android:visibility="0" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView29" android:layout_width="-2" android:layout_height="-2" android:text="After Breakfast" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editBreakAfter" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView30" android:layout_width="-2" android:layout_height="-2" android:text="Before Lanch" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editLanchBefore" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView31" android:layout_width="-2" android:layout_height="-2" android:text="After Lanch" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editLanchAfter" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView32" android:layout_width="-2" android:layout_height="-2" android:text="BeforeDinner" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editDinnerBefore" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView33" android:layout_width="-2" android:layout_height="-2" android:text="After Dinner" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editDinnerAfter" android:layout_width="-1" android:layout_height="-2" />
+                <CheckBox android:textColor="#fff4f4f4" android:id="@id/d_BloodCheck" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text=" Blood Test" />
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView34" android:layout_width="-2" android:layout_height="-2" android:text="Time" />
+                    <EditText android:textColor="#fff4f4f4" android:id="@id/d_editTime2" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:inputType="24" />
+                </LinearLayout>
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView35" android:layout_width="-2" android:layout_height="-2" android:text="Date" />
+                    <EditText android:textColor="#fff4f4f4" android:id="@id/d_editDate2" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:inputType="14" />
+                </LinearLayout>
+                <CheckBox android:textColor="#fff4f4f4" android:id="@id/d_XRayCheck" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="XRay" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView36" android:layout_width="-2" android:layout_height="-2" android:text="Patient Sugar Level" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editpateitnetSugar" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView37" android:layout_width="-2" android:layout_height="-2" android:text="Patient BP Level" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_editpatitentBPLevel" android:layout_width="-1" android:layout_height="-2" />
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#fff4f4f4" android:id="@id/textView38" android:layout_width="-2" android:layout_height="-2" android:text="Patient Weight" />
+                <EditText android:textColor="#fff4f4f4" android:layout_gravity="1" android:id="@id/d_patientWeight" android:layout_width="-1" android:layout_height="-2" />
+                <Button android:id="@id/d_btnUpdateMedicine" android:layout_width="-1" android:layout_height="-2" android:text="Update Info" style="?unknown_attr_ref: 1010049" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/docpatient" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <CalendarView android:id="@id/insurcalendarView" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:layout_toRightOf="@id/btnInsurOK" android:layout_below="@id/editInsurExpiryDate" android:layout_alignRight="@id/btnInsurDate" android:layout_alignParentBottom="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/textView75" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="34dp" android:layout_marginTop="65dp" android:text="Insurance policy number" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/textView76" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="28dp" android:text=" Insurance expiry date" android:layout_below="@id/editInsurPolicyNum" android:layout_alignLeft="@id/textView75" />
+        <EditText android:textColor="#fff4f4f4" android:id="@id/editInsurPolicyNum" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="102dp" android:layout_below="@id/textView75" android:layout_alignLeft="@id/textView75" android:layout_alignParentRight="true" />
+        <EditText android:textColor="#fff4f4f4" android:id="@id/editInsurExpiryDate" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:layout_toLeftOf="@id/btnInsurDate" android:layout_below="@id/textView76" android:layout_alignLeft="@id/editInsurPolicyNum" android:inputType="14" />
+        <Button android:id="@id/btnInsurDate" android:layout_width="-2" android:layout_height="-2" android:text="Date" android:layout_alignBottom="@id/editInsurExpiryDate" android:layout_alignParentRight="true" style="?unknown_attr_ref: 1010049" />
+        <Button android:id="@id/btnInsurOK" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="111dp" android:text=" O K " android:layout_below="@id/editInsurExpiryDate" android:layout_alignLeft="@id/editInsurExpiryDate" style="?unknown_attr_ref: 1010049" />
+        <Button android:id="@id/btnInsurCancel" android:layout_width="-2" android:layout_height="-2" android:text="Cancel" android:layout_toLeftOf="@id/btnInsurDate" android:layout_alignBottom="@id/btnInsurOK" style="?unknown_attr_ref: 1010049" />
+    </RelativeLayout>
+</LinearLayout>

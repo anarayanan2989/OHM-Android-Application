@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/docback" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#ffffff" android:id="@id/textView53" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="88dp" android:layout_marginTop="103dp" android:text="Email :" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <EditText android:id="@id/d_changeEmail" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:layout_above="@id/textView54" android:layout_alignParentRight="true" android:inputType="21" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#ffffff" android:id="@id/textView54" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35dp" android:text="New Pass :" android:layout_below="@id/textView53" android:layout_alignRight="@id/textView53" />
+        <EditText android:id="@id/d_changeNewPass" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:layout_alignBottom="@id/textView54" android:layout_alignParentRight="true" android:inputType="81" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#ffffff" android:id="@id/textView55" android:layout_width="-2" android:layout_height="-2" android:text="Confirm Pass :" android:layout_alignRight="@id/textView54" android:layout_centerVertical="true" />
+        <EditText android:id="@id/d_confimchangePass" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:layout_alignBottom="@id/textView55" android:layout_alignParentRight="true" android:inputType="81" />
+        <Button android:id="@id/d_btnChangeOk" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="89dp" android:text="  O K  " android:layout_alignRight="@id/textView55" android:layout_alignParentBottom="true" style="?unknown_attr_ref: 1010049" />
+        <Button android:id="@id/d_btnChangeCancel" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="44dp" android:text="Cancel" android:layout_alignLeft="@id/d_confimchangePass" android:layout_alignTop="@id/d_btnChangeOk" style="?unknown_attr_ref: 1010049" />
+    </RelativeLayout>
+</LinearLayout>

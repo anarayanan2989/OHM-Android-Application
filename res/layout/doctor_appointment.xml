@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@drawable/docback" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0"
+    <LinearLayout android:orientation="1" android:layout_width="189dp" android:layout_height="-1" android:layout_weight="0.01">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="#fff4f4f4" android:id="@id/textView17" android:layout_width="-2" android:layout_height="-2" android:text="Previous App" />
+        <RelativeLayout android:layout_gravity="1" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/textView20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24dp" android:text="Prescription" android:layout_alignParentLeft="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/d_editPrescription" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="18dp" android:layout_below="@id/textView20" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/textView21" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="29dp" android:text="Comments" android:layout_below="@id/d_editPrescription" android:layout_alignParentLeft="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/d_editComments" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="21dp" android:layout_below="@id/textView21" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="206dp" android:layout_height="-1">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="#fff4f4f4" android:id="@id/textView18" android:layout_width="-2" android:layout_height="-2" android:text="Current App" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/textView24" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="19dp" android:text="Prescription" android:layout_alignParentLeft="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/txtCurComments" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:text="Comments" android:layout_below="@id/d_curEditPrescription" android:layout_alignParentLeft="true" />
+            <Button android:id="@id/d_btnDetail" android:layout_width="-2" android:layout_height="-2" android:text="Details" android:layout_alignRight="@id/txtCurComments" android:layout_alignParentBottom="true" style="?unknown_attr_ref: 1010049" />
+            <EditText android:id="@id/d_curEditPrescription" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/textView24" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+            <EditText android:id="@id/d_cureditComments" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/txtCurComments" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

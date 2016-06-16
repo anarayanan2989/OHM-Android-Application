@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/docpatient" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_gravity="1" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="30dp" android:textStyle="3" android:textColor="#fff4f4f4" android:id="@id/txtBillDetail" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="43dp" android:text="BILL Details" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#fff4f4f4" android:id="@id/textView5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="27dp" android:text="Total   :" android:layout_toLeftOf="@id/txtBillDetail" android:layout_below="@id/txtBillDetail" />
+        <EditText android:textColor="#fff4f4f4" android:id="@id/editTotal" android:layout_width="-2" android:layout_height="-2" android:ems="10" android:layout_toRightOf="@id/textView5" android:layout_alignBottom="@id/textView5" android:inputType="61" />
+        <Button android:id="@id/btnPayCard" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="66dp" android:text=" Pay by Card" android:layout_below="@id/textView5" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010049" />
+        <Button android:id="@id/btnIns" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="64dp" android:text="Pay By Insurance/Hospital" android:layout_below="@id/btnPayCard" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010049" />
+    </RelativeLayout>
+</LinearLayout>

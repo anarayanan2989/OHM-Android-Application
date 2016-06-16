@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:background="@drawable/docpatient" android:layout_width="-1" android:layout_height="-1">
+        <Spinner android:id="@id/spinCity1" android:background="#2dffffff" android:layout_width="-1" android:layout_height="-2" android:foreground="#2dffffff" android:popupBackground="#2dd32b3e" android:layout_toRightOf="@id/location" android:layout_alignTop="@id/location" android:layout_alignBottom="@id/location" android:spinnerMode="1" android:alpha="50.0" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#abe5a8" android:id="@id/location" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="98dp" android:text="LOCATION  :" android:layout_above="@id/btnSpecial" android:layout_alignLeft="@id/dateEdit" />
+        <EditText android:textColor="#fff4f4f4" android:id="@id/dateEdit" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="75dp" android:ems="10" android:layout_below="@id/btnSpecial" android:layout_alignLeft="@id/btnSpecial" android:layout_alignRight="@id/btnSearch" android:inputType="14" />
+        <Button android:id="@id/btnCalender" android:layout_width="-2" android:layout_height="-2" android:text="Choose Date" android:layout_toRightOf="@id/location" android:layout_above="@id/btnSearch" style="?unknown_attr_ref: 1010049" />
+        <Button android:id="@id/btnSpecial" android:layout_width="-2" android:layout_height="-2" android:text="Choose Speciality" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010049" />
+        <Button android:id="@id/btnSearch" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="26dp" android:text="Search" android:layout_below="@id/dateEdit" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010049" />
+    </RelativeLayout>
+</LinearLayout>

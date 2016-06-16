@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/docpatient" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <Button android:id="@id/btnSchedulMenu" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="95dp" android:text="Schedule an Appointment" android:singleLine="false" android:shadowColor="@color/button_material_light" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/btnAppMenu" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="39dp" android:text="View Existing Appointment" android:layout_below="@id/btnSchedulMenu" android:layout_alignLeft="@id/btnSchedulMenu" />
+        <Button android:id="@id/btnProfileMenu" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="47dp" android:text="Edit Profile" android:layout_below="@id/btnAppMenu" android:layout_alignLeft="@id/btnAppMenu" android:layout_alignRight="@id/btnAppMenu" />
+        <Button android:id="@id/btnSingOff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="55dp" android:text="Sign Off" android:layout_below="@id/btnProfileMenu" android:layout_alignLeft="@id/btnProfileMenu" android:layout_alignRight="@id/btnSchedulMenu" />
+    </RelativeLayout>
+</LinearLayout>

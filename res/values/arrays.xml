@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_1">
+        <item>Houston</item>
+        <item>Dallas</item>
+        <item>Austin</item>
+        <item>Beaumont</item>
+        <item>New York</item>
+        <item>San Francisco</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/docpatient" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0">
+    <RelativeLayout android:layout_gravity="1" android:layout_width="-1" android:layout_height="224dp" android:layout_weight="0.95">
+        <RadioGroup android:id="@id/radioSpec" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="86dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <RadioButton android:textSize="20dp" android:textColor="#fff4f4f4" android:id="@id/firstRadio" android:layout_width="167dp" android:layout_height="-2" android:layout_marginTop="100dp" android:checked="false" android:text="Cardiologist" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RadioButton android:textSize="20dp" android:textColor="#fff4f4f4" android:id="@id/secondRadio" android:layout_width="-2" android:layout_height="-2" android:checked="false" android:text="Physicist" android:layout_below="@id/firstRadio" android:layout_alignLeft="@id/thirdRadio" />
+            <RadioButton android:textSize="20dp" android:textColor="#fff4f4f4" android:id="@id/thirdRadio" android:layout_width="151dp" android:layout_height="-2" android:checked="false" android:text="Gynchologist" android:layout_below="@id/secondRadio" android:layout_centerHorizontal="true" />
+            <RadioButton android:textSize="20dp" android:textColor="#fff4f4f4" android:id="@id/fourthRadio" android:layout_width="-1" android:layout_height="-2" android:checked="false" android:text="dentist" android:layout_below="@id/radioSpec" android:layout_alignParentLeft="true" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

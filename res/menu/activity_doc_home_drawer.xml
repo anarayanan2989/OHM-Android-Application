@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group android:checkableBehavior="2">
+        <item android:id="@id/nav_appointment" android:title="Appointments" />
+        <item android:id="@id/nav_profile" android:title="Edit Profile" />
+        <item android:id="@id/nav_logout" android:title="Log Out" />
+        <item android:id="@id/nav_Empty" android:title="" />
+    </group>
+</menu>

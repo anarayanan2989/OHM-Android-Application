@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="medicareapp.adithya_2.example.com.medicareapp" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.example.adithya_2.medicareapp.app.App" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:label="MedicareApp" android:name="com.example.adithya_2.medicareapp.View.Splashscreen" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.RegistrationActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientHomeActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientScheduleAppointmentActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientSpecActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientSearchActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientSubmitActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientViewAppActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientPayActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientChangePassActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientPrescriptionActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientPayByCardActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientPayByInsurActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.patientview.PatientDateSelectActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_doc_home" android:name="com.example.adithya_2.medicareapp.View.doctorview.DocHomeActivity" />
+        <activity android:name="com.example.adithya_2.medicareapp.View.doctorview.DoctorUpdateInfoActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.doctorview.DoctorAppointmentActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.example.adithya_2.medicareapp.View.doctorview.DoctorMedicineInfoActivity">
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+    </application>
+</manifest>
